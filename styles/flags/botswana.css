@@ -1,0 +1,21 @@
+#botswana.flag {
+    width: 320px;
+}
+
+#botswana .topbar, #botswana .middlebar1, #botswana .middlebar2, 
+#botswana .middlebar3, #botswana .bottombar {
+    width: 100%;
+}
+
+#botswana .topbar, #botswana .bottombar {
+    background-color: #0873a5;
+    height: 75px;
+}
+#botswana .middlebar1, #botswana .middlebar3 {
+    background-color: white;
+    height: 8px;
+}
+#botswana .middlebar2 {
+    background-color: black;
+    height: 34px;
+}

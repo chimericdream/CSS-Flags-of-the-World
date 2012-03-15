@@ -1,0 +1,22 @@
+/* General styles used on many flags */
+
+/* Specific flags */
+@import url("./flags/armenia.css");
+@import url("./flags/austria.css");
+@import url("./flags/bahamas.css");
+@import url("./flags/botswana.css");
+@import url("./flags/israel.css");
+@import url("./flags/united-states.css");
+
+/* Default ratio of height:width is 1:2 */
+.flag {
+    background-color: white;
+    border: 1px solid #ccc;
+    height: 200px;
+    margin: 30px 0;
+    padding: 0;
+    position: relative;
+    width: 400px;
+}
+
+.hide {display: none;}

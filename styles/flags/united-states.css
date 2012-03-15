@@ -1,0 +1,32 @@
+#united-states.flag {
+    height: 208px;
+    width: 395px;
+}
+
+#united-states .stripe {
+    height: 16px;
+    width: 100%;
+    z-index: 1;
+}
+
+#united-states .stripe.red {
+    background-color: #e71029;
+}
+
+#united-states .box {
+    background-color: #08086b;
+    color: white;
+    font-size: 12px;
+    height: 112px;
+    left: 0;
+    letter-spacing: 14px;
+    padding: 0 0 0 2px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 145px;
+    z-index: 2;
+}
+#united-states .offset {
+    margin-left: 10px;
+}

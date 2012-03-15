@@ -1,0 +1,32 @@
+#bahamas .topbar, #bahamas .middlebar, #bahamas .bottombar {
+    height: 67px;
+    left: 0px;
+    position: absolute;
+    width: 100%;
+}
+#bahamas .topbar {
+    background-color: #008cad;
+}
+#bahamas .middlebar {
+    background-color: #ffef31;
+    top: 67px;
+}
+#bahamas .bottombar {
+    background-color: #008cad;
+    bottom: 0;
+}
+
+#bahamas .triangle {
+    height: 100%;
+    left: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 100px;
+    border-style: solid;
+    border-width: 100px 100px 100px 150px;
+    height: 0;
+    margin: 0;
+    width: 0;
+    border-color: transparent transparent transparent black;
+}
