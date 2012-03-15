@@ -1,17 +1,15 @@
-#armenia .topbar, #armenia .middlebar, #armenia .bottombar {
-    height: 67px;
-    left: 0px;
-    position: absolute;
-    width: 100%;
+#armenia {
+    background-color: #002984;
 }
-#armenia .topbar {
+#armenia:before, #armenia:after {
+    content: " ";
+    display: block;
+    height: 67px;
+}
+#armenia:before {
     background-color: #de1018;
 }
-#armenia .middlebar {
-    background-color: #002984;
-    top: 67px;
-}
-#armenia .bottombar {
+#armenia:after {
     background-color: #ef7b21;
-    bottom: 0;
+    margin-top: 67px;
 }
