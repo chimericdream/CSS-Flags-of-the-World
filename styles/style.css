@@ -38,4 +38,19 @@
     width: 300px;
 }
 
+.r8to5 {
+    height: 200px;
+    width: 320px;
+}
+
+.r11to8 {
+    height: 200px;
+    width: 275px;
+}
+
+.r19to10 {
+    height: 208px;
+    width: 395px;
+}
+
 .hide {display: none;}

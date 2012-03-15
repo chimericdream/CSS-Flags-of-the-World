@@ -1,21 +1,16 @@
-#botswana.flag {
-    width: 320px;
+#botswana {
+    background-color: #000;
 }
-
-#botswana .topbar, #botswana .middlebar1, #botswana .middlebar2, 
-#botswana .middlebar3, #botswana .bottombar {
-    width: 100%;
-}
-
-#botswana .topbar, #botswana .bottombar {
+#botswana:before, #botswana:after {
     background-color: #0873a5;
+    content: " ";
+    display: block;
     height: 75px;
 }
-#botswana .middlebar1, #botswana .middlebar3 {
-    background-color: white;
-    height: 8px;
+#botswana:before {
+    border-bottom: 8px solid #fff;
 }
-#botswana .middlebar2 {
-    background-color: black;
-    height: 34px;
+#botswana:after {
+    border-top: 8px solid #fff;
+    margin-top: 34px;
 }
