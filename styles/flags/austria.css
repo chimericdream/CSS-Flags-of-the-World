@@ -1,14 +1,9 @@
-#austria.flag {
-    width: 300px;
-}
-
-#austria .topbar, #austria .bottombar {
+#austria:before, #austria:after {
     background-color: #de1018;
+    content: " ";
+    display: block;
     height: 67px;
-    left: 0px;
-    position: absolute;
-    width: 100%;
 }
-#austria .bottombar {
-    bottom: 0;
+#austria:after {
+    margin-top: 67px;
 }
