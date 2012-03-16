@@ -1,32 +1,20 @@
-#united-states.flag {
-    height: 208px;
-    width: 395px;
+#united-states {
+    background-color: #fff;
+    background-image: -moz-linear-gradient(90deg, rgba(255, 255, 255, 0), #fff 50%, #e71029 50%);
+    background-size: 32px 32px;
 }
 
-#united-states .stripe {
-    height: 16px;
-    width: 100%;
-    z-index: 1;
-}
-
-#united-states .stripe.red {
-    background-color: #e71029;
-}
-
-#united-states .box {
+#united-states .stars {
     background-color: #08086b;
     color: white;
     font-size: 12px;
     height: 112px;
     left: 0;
     letter-spacing: 14px;
-    padding: 0 0 0 2px;
+    padding: 2px 0 0 4px;
     position: absolute;
     text-align: center;
     top: 0;
     width: 145px;
     z-index: 2;
-}
-#united-states .offset {
-    margin-left: 10px;
 }
