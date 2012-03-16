@@ -1,157 +1,133 @@
-#israel.flag {
-    width: 275px;
+#israel {
+    background-color: #fff;
 }
 
-#israel .topbar, #israel .bottombar {
-    background-color: blue;
+#israel:before, #israel:after {
+    background-color: #00f;
+    content: " ";
+    display: block;
     height: 35px;
-    left: 0px;
-    position: absolute;
-    width: 100%;
 }
-#israel .topbar {
-    top: 15px;
+#israel:before {
+    border-top: 15px solid #fff;
 }
-#israel .bottombar {
-    bottom: 15px;
+#israel:after {
+    background-color: #00f;
+    border-bottom: 15px solid #fff;
+    margin-top: 98px;
 }
+
+#israel .star, #israel .star:after {
+    border-left: 42px solid transparent;
+    border-right: 42px solid transparent;
+    height: 0;
+    width: 0;
+}
+
 #israel .star {
-    height: 82px;
-    left: 75.5px;
-    overflow: hidden;
-    padding: 0;
+    border-bottom: 63px solid #00f;
+    left: 85px;
     position: absolute;
-    top: 59px;
-    width: 124px;
-}
- 
-#israel .startop, #israel .starbottom {
-    border-style: double;
-    border-width: 62px;
-    height: 0;
-    margin: 20px 0;
-    width: 0;
-}
-#israel .startop {
-    border-color: transparent transparent blue transparent;
-    margin-top: -62px;
-}
-#israel .starbottom {
-    border-color: blue transparent transparent transparent;
-    margin-top: -62px;
+    top: 58px;
+    z-index: 3;
 }
 
-#israel .star .outer .b1, #israel .star .outer .b2, #israel .star .outer .b3,
-#israel .star .outer .b4, #israel .star .outer .b5, #israel .star .outer .b6 {
-    border-style: solid;
+#israel .star:after {
+    border-top: 63px solid #00f;
+    content: "";
+    left: -42px;
+    position: absolute;
+    top: 21px;
+    z-index: 3;
+}
+
+#israel .star .point1, #israel .star .point2, 
+#israel .star .point3, #israel .star .point4,
+#israel .star .point5, #israel .star .point6 {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    display: block;
     height: 0;
+    overflow: visible;
     position: absolute;
     width: 0;
+    z-index: 5;
 }
 
-#israel .star .outer .b1 {
-    border-color: white transparent transparent;
-    border-width: 8px 8px 0;
-    left: 18px;
+#israel .star .point1,
+#israel .star .point3,
+#israel .star .point5 {
+    border-bottom: 8px solid #fff;
+}
+
+#israel .star .point2,
+#israel .star .point4,
+#israel .star .point6 {
+    border-top: 8px solid #fff;
+}
+
+#israel .star .point1 {
+    left: -5px;
+    top: 13px;
+}
+
+#israel .star .point2 {
+    left: 20px;
     top: 27px;
 }
-#israel .star .outer .b2 {
-    border-color: transparent transparent white;
-    border-width: 0 8px 8px;
-    right: 54px;
-    top: 12px;
+
+#israel .star .point3 {
+    left: 20px;
+    top: 49px;
 }
-#israel .star .outer .b3 {
-    border-color: white transparent transparent;
-    border-width: 8px 8px 0;
-    right: 18px;
+
+#israel .star .point4 {
+    left: -5px;
+    top: 63px;
+}
+
+#israel .star .point5 {
+    left: -30px;
+    top: 49px;
+}
+
+#israel .star .point6 {
+    left: -30px;
     top: 27px;
 }
-#israel .star .outer .b4 {
-    border-color: transparent transparent white;
-    border-width: 0 8px 8px;
-    left: 18px;
-    bottom: 27px;
-}
-#israel .star .outer .b5 {
-    border-color: white transparent transparent;
-    border-width: 8px 8px 0;
-    right: 54px;
-    bottom: 12px;
-}
-#israel .star .outer .b6 {
-    border-color: transparent transparent white;
-    border-width: 0 8px 8px;
-    right: 18px;
-    bottom: 27px;
+
+#israel .star .center {
+    background: #fff;
+    height: 30px;
+    left: -10px;
+    position: absolute;
+    top: 27px;
+    width: 20px;
+    z-index: 5;
 }
 
-
-#israel .star .inner .b1, #israel .star .inner .b2, #israel .star .inner .b3,
-#israel .star .inner .b4, #israel .star .inner .b5, #israel .star .inner .b6 {
-    border-style: solid;
+#israel .star .center:before {
+    border-bottom: 15px solid transparent;
+    border-right: 10px solid #fff;
+    border-top: 15px solid transparent;
+    content: "";
+    left: -10px;
+    position: absolute;
+    top: 0;
     height: 0;
+    width: 0;
+    z-index: 5;
+}
+
+#israel .star .center:after {
+    border-bottom: 15px solid transparent;
+    border-left: 10px solid #fff;
+    border-top: 15px solid transparent;
+    bottom: 0;
+    content: "";
+    height: 0;
+    left: 20px;
     position: absolute;
     width: 0;
+    z-index: 5;
 }
-
-#israel .star .inner .b1 {
-    border-color: transparent white white transparent;
-    border-width: 7px;
-    left: 32px;
-    top: 27px;
-}
-#israel .star .inner .b2 {
-    background-color: white;
-    height: 14px;
-    left: 46px;
-    top: 27px;
-    width: 32px;
-}
-#israel .star .inner .b3 {
-    border-color: transparent transparent white white;
-    border-width: 7px;
-    right: 32px;
-    top: 27px;
-}
-#israel .star .inner .b4 {
-    border-color: white white transparent transparent;
-    border-width: 7px;
-    left: 32px;
-    bottom: 27px;
-}
-#israel .star .inner .b5 {
-    background-color: white;
-    height: 14px;
-    left: 46px;
-    bottom: 27px;
-    width: 32px;
-}
-#israel .star .inner .b6 {
-    border-color: white transparent transparent white;
-    border-width: 7px;
-    right: 32px;
-    bottom: 27px;
-}
-
-/*
-.css-arrow-down {
-  border-color:#333333 transparent transparent;
-border-style:solid;
-border-width:20px 20px 0;
-float:left;
-height:0;
-margin:0 10px;
-width:0;
-}
-
-.css-arrow-up {
-  border-color:transparent transparent #333333;
-border-style:solid;
-border-width:0 20px 20px;
-float:left;
-height:0;
-margin:0 10px;
-width:0;
-}
-*/
