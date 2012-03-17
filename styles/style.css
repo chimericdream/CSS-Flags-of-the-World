@@ -13,7 +13,7 @@
 @import url("./flags/united-states.css");
 
 .almost:after {
-    content: "*Not 100% image-free";
+    content: "*Uses one or more images";
     display: block;
     font-size: .8em;
     font-style: italic;
