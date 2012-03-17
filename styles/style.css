@@ -10,18 +10,23 @@
 @import url("./flags/israel.css");
 @import url("./flags/united-states.css");
 
-/* Default ratio of height:width is 1:2 */
+.almost:after {
+    content: "*Not 100% image-free";
+    display: block;
+    font-size: .8em;
+    font-style: italic;
+    font-weight: normal;
+}
+
 .flag {
     background-color: white;
     border: 1px solid #ccc;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    height: 200px;
     margin: 5px 0 30px 0;
     padding: 0;
     position: relative;
-    width: 400px;
     z-index: -1;
 }
 
