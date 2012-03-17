@@ -1,0 +1,146 @@
+#antigua-barbuda {
+}
+
+#antigua-barbuda:before,
+#antigua-barbuda:after {
+    border-bottom: 198px solid #f00;
+    content: " ";
+    display: block;
+    height: 0;
+    position: absolute;
+    top: 0;
+    width: 0;
+    z-index: 5;
+}
+
+#antigua-barbuda:before {
+    border-right: 149px solid transparent;
+    left: 0;
+}
+
+#antigua-barbuda:after {
+    border-left: 149px solid transparent;
+    right: 0;
+}
+
+#antigua-barbuda .inner {
+    background-color: #0852a5;
+    height: 122px;
+    padding-top: 78px;
+    z-index: 3;
+}
+
+#antigua-barbuda .inner:before {
+    background-color: #000;
+    content: " ";
+    display: block;
+    height: 78px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+#antigua-barbuda .inner .sun {
+    background: #ffde08;
+    -moz-border-radius: 38px 38px 0 0;
+    -webkit-border-radius: 38px 38px 0 0;
+    border-radius: 38px 38px 0 0;
+    height: 38px;
+    left: 112px;
+    position: absolute;
+    top: 40px;
+    width: 76px;
+    z-index: 2;
+}
+
+#antigua-barbuda .inner .sun .point1,
+#antigua-barbuda .inner .sun .point2,
+#antigua-barbuda .inner .sun .point3,
+#antigua-barbuda .inner .sun .point4,
+#antigua-barbuda .inner .sun .point5,
+#antigua-barbuda .inner .sun .point6,
+#antigua-barbuda .inner .sun .point7,
+#antigua-barbuda .inner .sun .point8,
+#antigua-barbuda .inner .sun .point9 {
+    border-bottom: 30px solid #ffde08;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    content: " ";
+    display: block;
+    height: 0;
+    position: absolute;
+    width: 0;
+}
+
+#antigua-barbuda .inner .sun .point1 {
+    border-left-width: 0;
+    left: -16px;
+    top: 19px;
+    -moz-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+#antigua-barbuda .inner .sun .point2 {
+    left: -15px;
+    top: 5px;
+    -moz-transform: rotate(-67.5deg);
+    -webkit-transform: rotate(-67.5deg);
+    transform: rotate(-67.5deg);
+}
+
+#antigua-barbuda .inner .sun .point3 {
+    left: -5px;
+    top: -13px;
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+#antigua-barbuda .inner .sun .point4 {
+    left: 11px;
+    top: -25px;
+    -moz-transform: rotate(-22.5deg);
+    -webkit-transform: rotate(-22.5deg);
+    transform: rotate(-22.5deg);
+}
+
+#antigua-barbuda .inner .sun .point5 {
+    left: 30px;
+    top: -28px;
+}
+
+#antigua-barbuda .inner .sun .point6 {
+    left: 49px;
+    top: -25px;
+    -moz-transform: rotate(22.5deg);
+    -webkit-transform: rotate(22.5deg);
+    transform: rotate(22.5deg);
+}
+
+#antigua-barbuda .inner .sun .point7 {
+    left: 65px;
+    top: -13px;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+#antigua-barbuda .inner .sun .point8 {
+    left: 77px;
+    top: 5px;
+    -moz-transform: rotate(67.5deg);
+    -webkit-transform: rotate(67.5deg);
+    transform: rotate(67.5deg);
+}
+
+#antigua-barbuda .inner .sun .point9 {
+    border-right-width: 0;
+    left: 84px;
+    top: 19px;
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
