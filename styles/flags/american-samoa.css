@@ -1,0 +1,48 @@
+#american-samoa {
+    background-color: #ce0018;
+}
+
+#american-samoa:before,
+#american-samoa:after {
+    content: " ";
+    display: block;
+    height: 0;
+    position: absolute;
+    top: 0;
+    width: 0;
+    z-index: 5;
+}
+
+#american-samoa:before {
+    border-right: 400px solid transparent;
+    border-top: 100px solid #080863;
+    top: 0;
+}
+
+#american-samoa:after {
+    border-bottom: 100px solid #080863;
+    border-right: 400px solid transparent;
+    top: 99px;
+}
+
+#american-samoa .inner {
+    border-bottom: 90px solid transparent;
+    border-right: 360px solid #fff;
+    border-top: 90px solid transparent;
+    height: 0;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 0;
+}
+
+#american-samoa .inner:before {
+    background: transparent url('./images/american-samoa.png') center center no-repeat;
+    content: " ";
+    display: block;
+    height: 135px;
+    position: absolute;
+    right: -355px;
+    top: -75px;
+    width: 130px;
+}
