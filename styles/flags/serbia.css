@@ -1,0 +1,16 @@
+#serbia {
+    background-color: #00f;
+}
+#serbia:before, #serbia:after {
+    content: " ";
+    display: block;
+    height: 67px;
+}
+#serbia:before {
+    background-color: #f00;
+}
+#serbia:after {
+    background-color: #fff;
+    height: 66px;
+    margin-top: 65px;
+}
