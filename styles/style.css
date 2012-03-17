@@ -3,6 +3,7 @@
 /* Specific flags */
 @import url("./flags/algeria.css");
 @import url("./flags/armenia.css");
+@import url("./flags/aruba.css");
 @import url("./flags/austria.css");
 @import url("./flags/bahamas.css");
 @import url("./flags/botswana.css");
@@ -17,7 +18,7 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     height: 200px;
-    margin: 30px 0;
+    margin: 5px 0 30px 0;
     padding: 0;
     position: relative;
     width: 400px;

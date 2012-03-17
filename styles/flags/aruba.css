@@ -1,0 +1,117 @@
+#aruba, #aruba:before, #aruba:after {
+    background-color: #5a84bd;
+}
+
+#aruba:before, #aruba:after {
+    content: " ";
+    display: block;
+}
+
+#aruba:before {
+    border-bottom: 12px solid #ffef08;
+    height: 133px;
+}
+
+#aruba:after {
+    border-top: 12px solid #ffef08;
+    height: 33px;
+    margin-top: 10px;
+}
+
+#aruba .star1 {
+    background: #de1818;
+    height: 13px;
+    left: 36px;
+    position: absolute;
+    top: 36px;
+    width: 13px;
+    z-index: 3;
+}
+
+#aruba .star1 .top-right:before,
+#aruba .star1 .top-right:after,
+#aruba .star1 .bottom-left:before,
+#aruba .star1 .bottom-left:after {
+    content: " ";
+    display: block;
+    height: 0;
+    position: absolute;
+    width: 0;
+}
+
+#aruba .star1 .top-right:before {
+    border-bottom: 18px solid #de1818;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    top: -18px;
+}
+
+#aruba .star1 .top-right:after {
+    border-bottom: 6px solid transparent;
+    border-left: 18px solid #de1818;
+    border-top: 6px solid transparent;
+    left: 13px;
+}
+
+#aruba .star1 .bottom-left:before {
+    border-bottom: 6px solid transparent;
+    border-right: 18px solid #de1818;
+    border-top: 6px solid transparent;
+    left: -18px;
+}
+
+#aruba .star1 .bottom-left:after {
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 18px solid #de1818;
+    top: 13px;
+}
+
+#aruba .star2 {
+    background: #fff;
+    height: 15px;
+    left: 35px;
+    position: absolute;
+    top: 35px;
+    width: 15px;
+    z-index: 2;
+}
+
+#aruba .star2 .top-right:before,
+#aruba .star2 .top-right:after,
+#aruba .star2 .bottom-left:before,
+#aruba .star2 .bottom-left:after {
+    content: " ";
+    display: block;
+    height: 0;
+    position: absolute;
+    width: 0;
+}
+
+#aruba .star2 .top-right:before {
+    border-bottom: 21px solid #fff;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    top: -21px;
+}
+
+#aruba .star2 .top-right:after {
+    border-bottom: 7px solid transparent;
+    border-left: 21px solid #fff;
+    border-top: 7px solid transparent;
+    left: 15px;
+}
+
+#aruba .star2 .bottom-left:before {
+    border-bottom: 7px solid transparent;
+    border-right: 21px solid #fff;
+    border-top: 7px solid transparent;
+    left: -21px;
+}
+
+#aruba .star2 .bottom-left:after {
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 21px solid #fff;
+    top: 15px;
+}
