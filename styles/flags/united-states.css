@@ -11,10 +11,14 @@
     height: 112px;
     left: 0;
     letter-spacing: 14px;
-    padding: 2px 0 0 4px;
+    padding: 2px 0 0 7px;
     position: absolute;
     text-align: center;
     top: 0;
     width: 145px;
     z-index: 2;
+}
+
+#united-states .stars div:nth-child(2n) {
+    padding-left: 6px;
 }
