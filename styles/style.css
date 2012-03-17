@@ -1,6 +1,7 @@
 /* General styles used on many flags */
 
 /* Specific flags */
+@import url("./flags/algeria.css");
 @import url("./flags/armenia.css");
 @import url("./flags/austria.css");
 @import url("./flags/bahamas.css");
@@ -20,6 +21,7 @@
     padding: 0;
     position: relative;
     width: 400px;
+    z-index: -1;
 }
 
 .flag * {
