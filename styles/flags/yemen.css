@@ -1,0 +1,15 @@
+#yemen {
+    background-color: #fff;
+}
+#yemen:before, #yemen:after {
+    content: " ";
+    display: block;
+    height: 67px;
+}
+#yemen:before {
+    background-color: #f00;
+}
+#yemen:after {
+    background-color: #000;
+    margin-top: 67px;
+}

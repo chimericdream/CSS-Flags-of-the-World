@@ -11,6 +11,7 @@
 @import url("./flags/botswana.css");
 @import url("./flags/israel.css");
 @import url("./flags/united-states.css");
+@import url("./flags/yemen.css");
 
 .almost:after {
     content: "*Uses one or more images";
