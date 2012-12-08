@@ -1,0 +1,29 @@
+#the-sudan {
+    background-color: #fff;
+    position: relative;
+}
+#the-sudan:before {
+    border-bottom: 99px solid transparent;
+    border-left: 140px solid #18945a;
+    border-top: 99px solid transparent;
+    content: " ";
+    height: 0px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+#the-sudan .top, #the-sudan .bottom {
+    display: block;
+    height: 67px;
+    position: relative;
+    z-index: 1;
+}
+#the-sudan .top {
+    background-color: #de1018;
+}
+#the-sudan .bottom {
+    background-color: #000;
+    height: 66px;
+    margin-top: 65px;
+}

@@ -1,0 +1,40 @@
+#switzerland {
+    background-color: #fff;
+    position: relative;
+}
+#switzerland:before, #switzerland:after,
+#switzerland .top, #switzerland .bottom {
+    background-color: #de1018;
+    display: block;
+    height: 40px;
+    position: relative;
+}
+#switzerland:before, #switzerland:after {
+    content: " ";
+    position: absolute;
+    top: 80px;
+    width: 40px;
+}
+#switzerland:before {
+}
+#switzerland:after {
+    right: 0;
+}
+#switzerland .bottom {
+    margin-top: 120px;
+}
+#switzerland .top:before, #switzerland .bottom:before,
+#switzerland .top:after, #switzerland .bottom:after {
+    background-color: #de1018;
+    content: " ";
+    display: block;
+    height: 80px;
+    position: absolute;
+    width: 80px;
+}
+#switzerland .top:after, #switzerland .bottom:after {
+    right: 0;
+}
+#switzerland .bottom:before, #switzerland .bottom:after {
+    bottom: 0;
+}
