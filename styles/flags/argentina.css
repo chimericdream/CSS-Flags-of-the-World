@@ -1,0 +1,14 @@
+#argentina {
+    background: #fff url('./images/argentina.png') center center no-repeat;
+    background-size: auto 63px;
+}
+#argentina:before, #argentina:after {
+    background-color: #399cc6;
+    content: " ";
+    display: block;
+    height: 67px;
+}
+#argentina:after {
+    height: 66px;
+    margin-top: 65px;
+}
