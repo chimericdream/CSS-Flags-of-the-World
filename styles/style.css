@@ -9,9 +9,14 @@
 @import url("./flags/aruba.css");
 @import url("./flags/austria.css");
 @import url("./flags/bahamas.css");
+@import url("./flags/belgium.css");
+@import url("./flags/benin.css");
 @import url("./flags/botswana.css");
+@import url("./flags/bulgaria.css");
+@import url("./flags/burkina-faso.css");
 @import url("./flags/israel.css");
 @import url("./flags/st-kitts-and-nevis.css");
+@import url("./flags/senegal.css");
 @import url("./flags/serbia.css");
 @import url("./flags/sierra-leone.css");
 @import url("./flags/somalia.css");
@@ -70,6 +75,11 @@
 .r11to8 {
     height: 200px;
     width: 275px;
+}
+
+.r15to13 {
+    height: 208px;
+    width: 240px;
 }
 
 .r19to10 {
