@@ -1,0 +1,18 @@
+#central-african-republic {
+    background: linear-gradient(180deg, #082984, #082984 52px, #fff 52px, #fff 105px, #109452 105px, #109452 158px, #ffef08 158px, #ffef08);
+    color: #ffef08;
+    font-size: 75px;
+    line-height: 53px;
+    position: relative;
+    text-indent: 30px;
+}
+
+#central-african-republic:before {
+    background-color: #de1818;
+    content: " ";
+    display: block;
+    height: 100%;
+    left: 150px;
+    position: absolute;
+    width: 50px;
+}
