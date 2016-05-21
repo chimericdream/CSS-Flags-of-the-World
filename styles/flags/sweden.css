@@ -1,0 +1,17 @@
+#sweden {
+    background-color: #ffef08;
+    position: relative;
+}
+
+#sweden:before, #sweden:after {
+    background: linear-gradient(90deg, #0852a5, #0852a5 90px, #ffef08 90px, #ffef08 130px, #0852a5 130px, #0852a5);
+    content: " ";
+    display: block;
+    height: 80px;
+    position: absolute;
+    width: 100%;
+}
+
+#sweden:after {
+    bottom: 0;
+}

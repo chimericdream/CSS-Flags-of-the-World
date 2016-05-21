@@ -1,0 +1,20 @@
+#st-kitts-and-nevis {
+    background: linear-gradient(-33deg, #087b39, #087b39 130px, #ffef08 130px, #ffef08 140px, #000 140px, #000 190px, #ffef08 190px, #ffef08 200px, #de1818 200px, #de1818);
+}
+
+#st-kitts-and-nevis span {
+    color: #fff;
+    font-size: 75px;
+    position: absolute;
+    transform: rotate(-33deg);
+}
+
+#st-kitts-and-nevis span:first-child {
+    left: 70px;
+    top: 100px;
+}
+
+#st-kitts-and-nevis span:last-child {
+    right: 70px;
+    top: 25px;
+}

@@ -1,0 +1,16 @@
+#sierra-leone {
+    background-color: #fff;
+}
+#sierra-leone:before, #sierra-leone:after {
+    content: " ";
+    display: block;
+    height: 67px;
+}
+#sierra-leone:before {
+    background-color: #5ab521;
+}
+#sierra-leone:after {
+    background-color: #0852a5;
+    height: 66px;
+    margin-top: 65px;
+}

@@ -1,0 +1,14 @@
+#benin {
+    background: linear-gradient(180deg, #ffef08, #ffef08 100px, #de1818 100px, #de1818);
+    position: relative;
+}
+
+#benin:before {
+    background-color: #189452;
+    content: " ";
+    display: block;
+    position: absolute;
+    height: 100%;
+    left: 0;
+    width: 100px;
+}
